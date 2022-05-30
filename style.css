@@ -41,6 +41,10 @@ p {
   gap: 1rem;
 }
 
+.sub-text {
+  margin-top: 1rem;
+}
+
 .btn {
   padding: 1rem;
   border: none;

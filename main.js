@@ -2,6 +2,8 @@ import { countries_data } from "./countries_data.js";
 const btn1 = document.querySelector(".btn1");
 btn1.addEventListener("click", () => {
   const population = getPopulation();
+  const subText = document.querySelector(".sub-text");
+  subText.innerHTML = "10 Most populated countries in the world";
   const chartContainer = document.querySelector(".chart-container");
   while (chartContainer.hasChildNodes()) {
     console.log("removed");
@@ -71,6 +73,8 @@ btn1.addEventListener("click", () => {
 const btn2 = document.querySelector(".btn2");
 btn2.addEventListener("click", () => {
   const languages = getLanguages();
+  const subText = document.querySelector(".sub-text");
+  subText.innerHTML = "10 Most spoken languages in the world";
   const chartContainer = document.querySelector(".chart-container");
   while (chartContainer.hasChildNodes()) {
     console.log("removed");
